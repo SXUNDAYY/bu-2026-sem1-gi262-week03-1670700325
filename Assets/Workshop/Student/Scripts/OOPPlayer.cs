@@ -1,12 +1,12 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class OOPPlayer : MonoBehaviour
+public class OOPPlayer : Character
 {
-    public string Name;
+    /*public string Name;
     public int positionX;
     public int positionY;
-    public OOPMapGenerator mapGenerator;
+    public OOPMapGenerator mapGenerator;*/
 
     private InputAction moveAction;
 
